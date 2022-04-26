@@ -1,0 +1,22 @@
+ span { color:#aa00ff; }
+ 
+ .color1 {
+     color: #ff0000;
+     background-color:#999999;
+ }
+ 
+ .font1 {
+   font-size:300%;
+   font-style: italic;
+   font-weight: bold;
+   font-family: serif;
+ }
+ 
+ .text1 {
+   line-height: normal;
+   letter-spacong: normal;
+   text-align : center;
+   vertical-align: baseline;
+ 
+ 
+ }
