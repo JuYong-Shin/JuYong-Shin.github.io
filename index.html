@@ -2,9 +2,9 @@
 <html>
 <head>
   <link rel="stylesheet" href="global.css">
-  <script type="text/javascript" src="g1.js">
- 
-  </script>
+  <link rel="stylesheet" href="style.css"/>
+  <script type="text/javascript" src="g1.js"></script>
+  <script src="main.js" defer></script>
   
 </head>
 <body>
@@ -38,10 +38,24 @@
  <button  type="submit"> <span> 보내기 <span> </buton>
  <button class="button">이동</button>
  
- <ul style="padding: 0px 0px 20px 0px; line-height : 35px; " >
+ <br>
+ <main>
+  <form>
+    <h1>이름을 입력해 주세요.</h1>
+    <div class="name_container">
+      <label>성<input id="familyNameText" class="text" type="text"></label>
+      <label>이름<input id="firstNameText" class="text" type="text"></label>
+    </div>
+    <p id="fullName"></p>
+  </form>
+ </main>
+ <br>
+ 
+  <ul style="padding: 0px 0px 20px 0px; line-height : 35px; " >
             <li><a href="solve.html">풀이</a></li>
           
  </ul>
+ 
  
 </body>
 
