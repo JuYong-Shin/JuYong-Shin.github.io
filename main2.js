@@ -14,7 +14,7 @@ btn.addEventListener('click', () => {
   
     
   // 파일 지정
-  req.open('GET', 'https://github.com/JuYong-Shin/JJ/math_prob.json', true);
+  req.open('GET', './math_prob.json');
   
 //  req.withCredentials = true; 
 //  req.onreadystatechange = handler;
